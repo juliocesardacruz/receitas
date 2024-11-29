@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    background-color: var(--cor1);
+}
+
+:root {
+    --cor1 {color: #ff6400;}
+    --cor2 {color: #ff9500;}
+    --cor3 {color: #ffcb28;}
+    --cor4 {color: #fffd66;}
+    --cor5 {color: #ffff93;}
+}
