@@ -4,17 +4,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", cursive;
+    --fonte3: "Sriracha", cursive;
+}
+
+:root {
+    --cor1: #ff6400;
+    --cor2: #ff9500;
+    --cor3: #ffcb28;
+    --cor4: #fffd66;
+    --cor5: #ffff93;
+}
+
 * {
     margin: 0px;
     padding: 0px;
     font-size: 1em;
-    background-color: var(--cor1);
 }
 
-:root {
-    --cor1 {color: #ff6400;}
-    --cor2 {color: #ff9500;}
-    --cor3 {color: #ffcb28;}
-    --cor4 {color: #fffd66;}
-    --cor5 {color: #ffff93;}
+header {
+    background-color: var(--cor5);padding: 30px;
+     
 }
+
+img {
+    width: 40px;
+}
+
+h1 {
+    font-family: var(--fonte1);
+    font-size: 3em;
+    color: var(--cor1);
+    text-align: center;
+}
+
+h3 {
+    font-family: var(--fonte3);
+    font-size: 2em;
+    text-align: center;
+}
+
