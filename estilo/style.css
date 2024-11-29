@@ -16,6 +16,8 @@
     --cor3: #ffcb28;
     --cor4: #fffd66;
     --cor5: #ffff93;
+    --cor6: #00a400;
+    --cor7: #7ebb25;
 }
 
 * {
@@ -34,7 +36,7 @@ img {
 }
 
 h1 {
-    font-family: var(--fonte1);
+    font-family: var(--fonte3);
     font-size: 3em;
     color: var(--cor1);
     text-align: center;
@@ -46,3 +48,20 @@ h3 {
     text-align: center;
 }
 
+div {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor7);
+    padding: 5px;
+    font-family: var(--fonte1);
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 90%;
+    background-color: var(--cor7);
+    margin: auto;
+}
