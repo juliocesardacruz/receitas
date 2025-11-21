@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="PT-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>receitas.com</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
+
 <body>
     <header>
-        <img src="icones/livro-receitas-512px.png" alt="icone-livro-receitas">
+
+        <div class="contacts">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
         <h1>Receitas.com</h1>
         <h3>Seu livro de receitas na internet</h3>
-        
+        <div class="search-conteiner">
+            <img src="icones/livro-receitas-512px.png" alt="icone-livro-receitas">
+            <input type="text" id="searchInput" placeholder="Buscar Receitas..." class="search-input">
+            <button id="searchBtn" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
     </header>
-    <div>
-        <a href="#">Home</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
-    </div>
-    <section>
-        <h1>teste</h1>
-        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quia neque exercitationem! Numquam a aperiam, minus iste exercitationem ex distinctio natus quo atque, pariatur ratione ducimus, tempora debitis aliquid ipsa! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ex, dignissimos reiciendis vitae, numquam ut possimus exercitationem tempora facilis cupiditate nesciunt non, laboriosam quae rem ea esse accusamus reprehenderit sint? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo in error hic libero, facilis rem provident, totam minima ducimus voluptate asperiores, dolorum quisquam id? Nobis autem deleniti alias laborum magnam.</h2>
-    </section>
-    <table class="receitas">
-        <caption>Listagem de Receitas</caption>
-        <thead>
-            <tr>
-                <th scope="col">Receita</th>
-                <th scope="col" style=" width: 500px;">Link</th>
-            </tr>
 
-        </thead>
-        <tbody>
-            <tr>
-                <td>receita 1</td>
-                <td>link 1</td>
-            </tr>
-        </tbody>
+    <main class="main">
+        <div class="container">
+            <h2 class="section-title">Receitas</h2>
+            <div class="products-grid" id="productsGrid">
 
-    </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido por Julio Cesar da Cruz</p>
+    </footer>
 </body>
+
 </html>
