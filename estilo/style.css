@@ -98,6 +98,43 @@ h3 {
 
 .products-grid {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
+
+.rec-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.rec-car:hover {
+    transform: translateY(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.rec-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.rec-title {
+    font-size: 19px;
+    margin-bottom: 10px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.rec-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
 }
 
 .footer {
